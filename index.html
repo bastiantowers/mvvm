@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MVVM Test</title>
+	<meta charset="UTF-8">
+</head>
+<body>
+	<h1>MVVM Test Page</h1>
+	<div class="content">
+		<span data-bind="myFirstText">Text data</span>
+	</div>
+	<script type="text/javascript" src="mvvm.js"></script>
+	<script type="text/javascript">
+		var myMVVM = new MVVM({
+			dataBindings : {
+				myFirstName : 'Sebastian'
+			}
+		});
+
+
+	</script>
+</body>
+</html>
